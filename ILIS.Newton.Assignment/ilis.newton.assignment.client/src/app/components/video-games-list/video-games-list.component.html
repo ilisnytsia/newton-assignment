@@ -1,0 +1,16 @@
+<div class="game-cards">
+  <div *ngFor="let game of videoGames" class="card">
+    <h3>{{ game.title }}</h3>
+    <p><strong>Genre:</strong> {{ game.genre }}</p>
+    <p><strong>Price:</strong> {{ game.price | currency }}</p>
+    <p><strong>Release Date:</strong> {{ game.releaseDate | date }}</p>
+    <button (click)="editGame(game.id)">Edit</button>
+  </div>
+</div>
+
+<div class="pagination">
+  <button (click)="onPageChange(page - 1)" [disabled]="page === 1">Previous</button>
+  <span>Page {{ page }}</span>
+  <button (click)="onPageChange(page + 1)" [disabled]="page * size >= totalCount">Next</button>
+</div>
+    

@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ILIS.Newton.Assignment/.vs
+/ILIS.Newton.Assignment/ILIS.Newton.Assignment.Application/bin/Debug/net8.0
+/ILIS.Newton.Assignment/ILIS.Newton.Assignment.Application/obj
+/ILIS.Newton.Assignment/ilis.newton.assignment.client/.vscode
+/ILIS.Newton.Assignment/ilis.newton.assignment.client/obj/Debug
+/ILIS.Newton.Assignment/ILIS.Newton.Assignment.DataAccess/bin/Debug/net8.0
+/ILIS.Newton.Assignment/ILIS.Newton.Assignment.DataAccess/obj
+/ILIS.Newton.Assignment/ILIS.Newton.Assignment.Entities/bin/Debug/net8.0
+/ILIS.Newton.Assignment/ILIS.Newton.Assignment.Entities/obj
+/ILIS.Newton.Assignment/ILIS.Newton.Assignment.Server/bin/Debug/net8.0
+/ILIS.Newton.Assignment/ILIS.Newton.Assignment.Server/obj
+/ILIS.Newton.Assignment/Infrastructure/bin/Debug/net8.0
+/ILIS.Newton.Assignment/ILIS.Newton.Assignment.Infrastructure/bin/Debug/net8.0
+/ILIS.Newton.Assignment/ILIS.Newton.Assignment.Infrastructure/obj

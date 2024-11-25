@@ -1,0 +1,6 @@
+@ILIS.Newton.Assignment.Server_HostAddress = http://localhost:5065
+
+GET {{ILIS.Newton.Assignment.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

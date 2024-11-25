@@ -1,0 +1,32 @@
+
+<h2>Edit Video Game</h2>
+
+<form *ngIf="videoGame">
+  <div class="form-group">
+    <label for="title">Title:</label>
+    <input id="title" name="title" [(ngModel)]="videoGame.title" placeholder="Enter game title" />
+  </div>
+
+  <div class="form-group">
+    <label for="genre">Genre:</label>
+    <input id="genre" name="genre" [(ngModel)]="videoGame.genre" placeholder="Enter game genre" />
+  </div>
+
+  <div class="form-inline">
+    <div class="form-group">
+      <label for="price">Price:</label>
+      <input id="price" name="price" type="number" [(ngModel)]="videoGame.price" placeholder="Enter price" />
+    </div>
+  </div>
+
+  <button (click)="saveChanges()">Save Changes</button>
+</form>
+
+<!-- Modal -->
+<div class="modal" *ngIf="showModal">
+    <div class="modal-content">
+      <h3>Success</h3>
+      <p>The video game has been updated successfully!</p>
+      <button (click)="closeModal()">OK</button>
+    </div>
+  </div>

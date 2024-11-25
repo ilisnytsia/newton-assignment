@@ -1,0 +1,12 @@
+﻿namespace ILIS.Newton.Assignment.Entities.Entities
+{
+    public class VideoGame
+    {
+        public int Id { get; set; }
+        public string Title { get; set; }
+        public string Genre { get; set; }
+        public string Developer { get; set; }
+        public DateTime ReleaseDate { get; set; }
+        public decimal Price { get; set; }
+    }
+}
