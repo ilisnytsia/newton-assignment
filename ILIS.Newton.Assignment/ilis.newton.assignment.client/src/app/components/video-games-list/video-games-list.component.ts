@@ -6,11 +6,11 @@ import { VideoGame } from '../../models/video-game';
 import { VideoGameStateService } from '../../services/video-games-state-service.service';
 
 @Component({
-  selector: 'app-video-games-list',
-  standalone: true,
-  imports: [CommonModule],
-  templateUrl: './video-games-list.component.html',
-  styleUrls: ['./video-games-list.component.css'],
+    selector: 'app-video-games-list',
+    standalone: true,
+    imports: [CommonModule],
+    templateUrl: './video-games-list.component.html',
+    styleUrls: ['./video-games-list.component.css']
 })
 export class VideoGamesListComponent implements OnInit {
   page = 1;

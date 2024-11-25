@@ -6,11 +6,11 @@ import { FormsModule } from '@angular/forms'
 import { NgIf } from '@angular/common';
 
 @Component({
-  selector: 'app-video-game-edit',
-  standalone: true,
-  imports: [FormsModule, NgIf],
-  templateUrl: './video-game-edit.component.html',
-  styleUrls: ['./video-game-edit.component.css'],
+    selector: 'app-video-game-edit',
+    standalone: true,
+    imports: [FormsModule, NgIf],
+    templateUrl: './video-game-edit.component.html',
+    styleUrls: ['./video-game-edit.component.css']
 })
 export class VideoGameEditComponent implements OnInit {
   videoGame: VideoGame | null = {
